@@ -329,6 +329,18 @@ p { margin: 0 0 1.2em; }
   font-size: 0.98rem;
 }
 
+.methodology-statement {
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  line-height: 1.6;
+  max-width: 68ch;
+  margin: 0 0 20px;
+}
+
+.methodology-statement:last-child {
+  margin-bottom: 0;
+}
+
 .ledger-row__meta {
   font-family: var(--font-mono);
   font-size: 0.85rem;
