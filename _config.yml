@@ -1,0 +1,35 @@
+title: Light Analytics
+description: >-
+  Independent financial intelligence and enhanced due diligence for Kenyan
+  banks, SACCOs, and microfinance institutions, and East and Central African
+  development finance.
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+
+plugins:
+  - jekyll-feed

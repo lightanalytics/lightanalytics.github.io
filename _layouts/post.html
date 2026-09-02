@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="page-shell content-shell">
+  <article class="section">
+    <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · <span class="mono">{{ page.date | date: "%-d %B %Y" }}</span>{% if page.author %} · {{ page.author }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+description: Sourced analysis on Kenyan bank, SACCO, and MFB risk, insider lending, and collateral investigations.
+---
+
+<div class="page-heading">
+  <h1>Blog</h1>
+  <p class="page-heading__sub">Sourced analysis on Kenyan bank, SACCO, and MFB risk, insider lending, and collateral investigations. No estimation. No inference presented as fact.</p>
+</div>
+
+<section class="section--tight">
+  {% for post in site.posts %}
+    <div class="ledger-row">
+      <div>
+        <p class="ledger-row__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+        <p class="ledger-row__excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+      </div>
+      <p class="ledger-row__meta">{{ post.date | date: "%-d %b %Y" }}</p>
+    </div>
+  {% else %}
+    <p>No posts published yet. Check back soon.</p>
+  {% endfor %}
+</section>
