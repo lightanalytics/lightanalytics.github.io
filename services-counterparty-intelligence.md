@@ -10,7 +10,7 @@ description: An independent, evidence-based read on a Kenyan bank's current cond
 </div>
 
 <section class="section--tight">
-  <p class="methodology-statement">A Kenyan bank's public record — court filings, regulatory disclosures, Gazette notices, prudential returns — often tells a different story than its own investor materials. Counterparty Intelligence Reports reconstruct that record independently, so a decision is made on evidence that can be traced, not on what an institution chose to disclose.</p>
+  <p class="methodology-statement">Court filings, regulatory disclosures, Gazette notices, and prudential returns make up a Kenyan bank's public record. That record often tells a different story than the bank's own investor materials. Counterparty Intelligence Reports reconstruct it independently, so a decision is made on evidence that can be traced, not on what an institution chose to disclose.</p>
 </section>
 
 <section class="section--tight">
@@ -25,14 +25,14 @@ description: An independent, evidence-based read on a Kenyan bank's current cond
   <ul class="tier__list" style="max-width:60ch;">
     <li>Asset &amp; Resource Quality</li>
     <li>Funding &amp; Obligation Structure</li>
-    <li>Control Topology — ownership and governance structure</li>
-    <li>Authority &amp; Accountability — who holds decision power, and how it is checked</li>
-    <li>Conduct Trajectory — behavioural and compliance pattern over time</li>
-    <li>System Exposure — exposure to sector-wide and macroeconomic shocks</li>
+    <li>Control Topology: ownership and governance structure</li>
+    <li>Authority &amp; Accountability: who holds decision power, and how it is checked</li>
+    <li>Conduct Trajectory: behavioural and compliance pattern over time</li>
+    <li>System Exposure: exposure to sector-wide and macroeconomic shocks</li>
   </ul>
   <p class="methodology-statement">Each dimension is reported separately, never collapsed into a single score or grade, and every finding is traceable to a named, dated public source. Where the evidence is genuinely insufficient to support a conclusion, that is stated plainly, not smoothed over.</p>
   <div class="policy-line">
-    The dimension names above are the report's table of contents. The underlying sourcing methodology, conflict-resolution rules, and confidence-labeling criteria are not published — that is the part of the work that is actually hard to replicate, and it stays off this page.
+    The dimension names above are the report's table of contents. The underlying sourcing methodology, conflict-resolution rules, and confidence-labeling criteria are not published. That is the part of the work that is actually hard to replicate, and it stays off this page.
   </div>
 </section>
 
