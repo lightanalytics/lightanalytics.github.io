@@ -65,17 +65,26 @@ description: >-
   </section>
 
   <section class="section">
+    <h2 class="section-title">How we work</h2>
+    <p class="ledger-row__excerpt" style="max-width:70ch;">Every figure in our work traces back to a primary source: audited financial statements, CBK statutory disclosures, court records, and company and land registries. Where the public record has a gap, we say so explicitly rather than filling it with an estimate. Where two sources disagree, we flag the discrepancy rather than picking the one that fits a cleaner narrative. This is slower than working from press releases and analyst notes, and it's why our findings hold up under scrutiny.</p>
+  </section>
+
+  <section class="section">
     <h2 class="section-title">Latest from the Blog</h2>
     {% assign recent_posts = site.posts | slice: 0, 3 %}
-    {% for post in recent_posts %}
-      <div class="ledger-row">
-        <div>
-          <p class="ledger-row__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-          <p class="ledger-row__excerpt">{{ post.excerpt | strip_html | truncatewords: 24 }}</p>
+    {% if recent_posts.size == 0 %}
+      <p class="ledger-row__excerpt">New investigative pieces are in progress. Check back soon, or <a href="{{ '/contact/' | relative_url }}">get in touch</a> to be notified on publication.</p>
+    {% else %}
+      {% for post in recent_posts %}
+        <div class="ledger-row">
+          <div>
+            <p class="ledger-row__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+            <p class="ledger-row__excerpt">{{ post.excerpt | strip_html | truncatewords: 24 }}</p>
+          </div>
+          <p class="ledger-row__meta">{{ post.date | date: "%-d %b %Y" }}</p>
         </div>
-        <p class="ledger-row__meta">{{ post.date | date: "%-d %b %Y" }}</p>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   </section>
 
   <section class="section">
