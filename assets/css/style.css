@@ -216,8 +216,7 @@ p { margin: 0 0 1.2em; }
   min-height: 420px;
   background-color: var(--hero-line);
   background-image: url("/assets/img/lucy-headshot.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
