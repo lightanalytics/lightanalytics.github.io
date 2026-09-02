@@ -11,7 +11,11 @@ description: Tell us what you need and we'll follow up directly.
 </div>
 
 <section class="section--tight">
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="002ec953-d28c-4382-a8ee-29ad289d5723">
+    <input type="hidden" name="subject" value="New inquiry from Light Analytics website">
+    <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off">
+
     <div class="form-field">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required>
@@ -50,7 +54,7 @@ description: Tell us what you need and we'll follow up directly.
 
   <div class="contact-alt">
     <p><strong>Prefer email or LinkedIn?</strong></p>
-    <p>[INSERT EMAIL]</p>
-    <p>[INSERT LINKEDIN URL]</p>
+    <p><a href="mailto:lucywanguik01@gmail.com">lucywanguik01@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/lucywangui-data" target="_blank" rel="noopener">linkedin.com/in/lucywangui-data</a></p>
   </div>
 </section>
