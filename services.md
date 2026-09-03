@@ -2,12 +2,12 @@
 layout: page
 title: Services
 permalink: /services/
-description: Five ways to work with Light Analytics, depending on what you need.
+description: Six ways to work with Light Analytics, depending on what you need.
 ---
 
 <div class="page-heading">
   <h1>Services</h1>
-  <p class="page-heading__sub">Five ways to work with Light Analytics, depending on what you need.</p>
+  <p class="page-heading__sub">Six ways to work with Light Analytics, depending on what you need.</p>
 </div>
 
 <section class="section--tight">
@@ -80,6 +80,20 @@ description: Five ways to work with Light Analytics, depending on what you need.
       <li>Licensed for the buyer's internal use only: analysis, reporting, and internal decision-making. Redistribution, resale, or public republishing of the underlying dataset files is not permitted without a separate written licence; contact to discuss redistribution terms if that's what you need.</li>
     </ul>
     <p class="tier__for" style="margin:14px 0 0;"><a href="{{ '/services/datasets/' | relative_url }}">Full details &rarr;</a></p>
+  </div>
+</div>
+
+<div class="tier">
+  <div class="tier__index mono">06</div>
+  <div class="tier__body">
+    <h3><a href="{{ '/services/cross-border-group-exposure/' | relative_url }}">Cross-Border Group Exposure Read</a></h3>
+    <p class="tier__for">For: parent-level risk functions, regional DFIs, and shareholders with cross-border exposure to a banking group's Kenyan subsidiary.</p>
+    <ul class="tier__list">
+      <li>Full evidence-based read of the group's Kenyan subsidiary, same standard as Counterparty Intelligence Reports</li>
+      <li>Cross-country macro and fiscal comparison used as the structural lens for group context</li>
+      <li>Correlation and concentration risk flagged where the evidence points to it</li>
+    </ul>
+    <p class="tier__for" style="margin:14px 0 0;"><a href="{{ '/services/cross-border-group-exposure/' | relative_url }}">Full details &rarr;</a></p>
   </div>
 </div>
 
