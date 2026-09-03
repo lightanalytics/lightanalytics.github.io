@@ -42,13 +42,14 @@ description: Five ways to work with Light Analytics, depending on what you need.
 <div class="tier">
   <div class="tier__index mono">03</div>
   <div class="tier__body">
-    <h3>Sector Intelligence Retainer</h3>
+    <h3><a href="{{ '/services/sector-intelligence-retainer/' | relative_url }}">Sector Intelligence Retainer</a></h3>
     <p class="tier__for">For: institutions that need standing visibility into sector risk, not a single snapshot.</p>
     <ul class="tier__list">
       <li>Ongoing tracking of Net NPL Exposure and insider lending velocity across NSE-listed banks</li>
       <li>Structured updates delivered on a defined cadence</li>
       <li>Direct access to underlying data and methodology notes</li>
     </ul>
+    <p class="tier__for" style="margin:14px 0 0;"><a href="{{ '/services/sector-intelligence-retainer/' | relative_url }}">Full details &rarr;</a></p>
   </div>
 </div>
 
