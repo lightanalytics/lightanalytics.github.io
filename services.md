@@ -29,13 +29,14 @@ description: Five ways to work with Light Analytics, depending on what you need.
 <div class="tier">
   <div class="tier__index mono">02</div>
   <div class="tier__body">
-    <h3>SACCO &amp; MFB Due Diligence</h3>
+    <h3><a href="{{ '/services/sacco-mfb-due-diligence/' | relative_url }}">SACCO &amp; MFB Due Diligence</a></h3>
     <p class="tier__for">For: DFIs, investors, and lenders assessing exposure to Kenya's SACCO and microfinance bank sector.</p>
     <ul class="tier__list">
       <li>Institutional due diligence on individual SACCOs and MFBs</li>
       <li>Coverage across licensed DT-SACCOs and MFBs, priced and scoped separately from commercial bank engagements given differing disclosure standards</li>
       <li>Same sourcing and rigor standard as the commercial bank tier, adapted to sector-specific reporting formats</li>
     </ul>
+    <p class="tier__for" style="margin:14px 0 0;"><a href="{{ '/services/sacco-mfb-due-diligence/' | relative_url }}">Full details &rarr;</a></p>
   </div>
 </div>
 
